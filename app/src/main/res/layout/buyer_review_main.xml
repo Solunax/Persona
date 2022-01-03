@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="리뷰 확인" />
+
+    <LinearLayout
+        android:id="@+id/buyer_review_mother_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/shadow"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/buyer_review_recycle"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

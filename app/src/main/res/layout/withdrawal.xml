@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CBBBFF">
+
+    <TextView
+        android:id="@+id/withdrawal_text"
+        android:layout_marginTop="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:text="회원탈퇴 하시겠습니까?" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/withdrawal_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/withdrawal_before" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/withdrawal_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/warning" />
+
+    <TextView
+        android:id="@+id/withdrawal_script"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_white"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="회원탈퇴시 회원정보, 등록한 연기샘플,\n공고 등, 모든 정보가 삭제됩니다" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:hintTextColor="@color/black">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/withdrawal_pw"
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:paddingLeft="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/btn_text_field"
+                    android:inputType="textPassword"
+                    android:hint="비밀번호 입력"
+                    android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/withdrawal_button_group"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/withdrawal_yes"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_purple"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="네" />
+
+        <Button
+            android:id="@+id/withdrawal_no"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_white"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="아니요" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/withdrawal_to_login"
+        android:layout_width="110dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_white"
+        android:text="로그인 화면"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</LinearLayout>

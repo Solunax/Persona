@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="내정보" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="8dp">
+
+        <ImageButton
+            android:layout_marginRight="20dp"
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:background="@drawable/profile_shadow"
+            android:layout_height="120dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#343434"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이름"
+                android:textSize="26dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이디"
+                android:textColor="#343434"
+                android:layout_marginTop="20dp"
+                android:textSize="26dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/voice_checkName"
+                android:textColor="#343434"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="26dp"
+                android:textAlignment="center"
+                android:background="@drawable/btn_text_field"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/voice_checkID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#343434"
+                android:background="@drawable/btn_text_field"
+                android:textSize="26dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="전화번호"
+            android:textColor="#343434"/>
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:id="@+id/voice_change_phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_white"
+            android:textColor="#343434"
+            android:layout_margin="5dp"
+            android:visibility="invisible"
+            android:enabled="false"
+            android:text="전화번호 변경" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/voice_check_phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:inputType="textPersonName"
+        android:text="Phone Number"
+        android:enabled="false"
+        android:background="@drawable/btn_text_field"
+        android:textSize="26dp"
+        android:textColor="#343434"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#343434"
+            android:textSize="26dp"
+            android:text="이메일" />
+
+        <Button
+            android:layout_marginLeft="25dp"
+            android:id="@+id/voice_change_email"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#343434"
+            android:background="@drawable/btn_white"
+            android:layout_margin="5dp"
+            android:visibility="invisible"
+            android:enabled="false"
+            android:text="이메일 주소 변경" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/voice_check_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:enabled="false"
+        android:background="@drawable/btn_text_field"
+        android:textSize="26dp"
+        android:textColor="#343434"/>
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/voice_change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_white"
+        android:textColor="#343434"
+        android:visibility="invisible"
+        android:enabled="false"
+        android:text="비밀번호 변경" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/voice_information_edit"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/btn_white_gradient"
+                android:text="자기소개/약력 수정"
+                android:visibility="invisible"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/voice_withdrawal"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_purple"
+                android:text="회원탈퇴"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/voice_donate_apply"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_purple"
+                android:text="재능기부"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/voice_change_info"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_purple"
+                android:drawableLeft="@drawable/edit_profile"
+                android:paddingLeft="10dp"
+                android:text="수정"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

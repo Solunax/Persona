@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="회원가입" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:text="가입할 회원 유형을 선택하세요" />
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/buyer"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_white"
+        android:drawableTop="@drawable/buyer"
+        android:layout_marginRight="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:text="구매자"/>
+
+    <Button
+        android:id="@+id/voice_actor"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_white"
+        android:drawableTop="@drawable/voice"
+        android:layout_marginLeft="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:text="성우" />
+    </LinearLayout>
+
+</LinearLayout>

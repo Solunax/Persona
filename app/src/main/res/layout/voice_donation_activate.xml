@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="420dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/btn_white"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="재능 기부 활성화" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="재능 기부를 활성화 하면\n구매자가 성우를 검색할 때\n 결과의 상단에 노출됩니다.\n보수 요청이 불가능해집니다." />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/voice_donation_activate"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_gradient"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="활성화" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/voice_donation_activate_cancel"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_white_gradient"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="그만두기" />
+
+</LinearLayout>

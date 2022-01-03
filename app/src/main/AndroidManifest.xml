@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.persona.persona">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_persona"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_persona_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Persona">
+        <activity
+            android:name=".login_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".user_class"/>
+        <activity android:name=".change_password"/>
+        <activity android:name=".withdrawal"/>
+        <activity android:name=".findIdPw"/>
+        <activity android:name=".matching_state"/>
+
+        <activity android:name=".voice.voice_create_account"/>
+        <activity android:name=".voice.voice_create_account_introduce"/>
+        <activity android:name=".voice.voice_main"/>
+
+        <activity android:name=".voice.voice_info"/>
+        <activity android:name=".voice.voice_sample_upload_main"/>
+        <activity android:name=".voice.voice_sample_upload_progress1"/>
+        <activity android:name=".voice.voice_sample_upload_progress2"/>
+        <activity android:name=".voice.voice_sample_upload_progress3"/>
+        <activity android:name=".voice.voice_sample_upload_progress4"/>
+        <activity android:name=".voice.voice_sample_upload_progress5"/>
+        <activity android:name=".voice.voice_sample_edit"/>
+        <activity android:name=".voice.voice_sample_edit_file"/>
+        <activity android:name=".voice.voice_sample_edit_character"/>
+        <activity android:name=".voice.voice_sample_check"/>
+        <activity android:name=".voice.voice_sample_edit_character_check"/>
+        <activity android:name=".voice.voice_sample_edit_complete"/>
+        <activity android:name=".voice.voice_sample_delete"/>
+
+        <activity android:name=".voice.voice_matching_state_progress"/>
+        <activity android:name=".voice.voice_matching_state_complete"/>
+
+        <activity android:name=".voice.voice_announce_search_main"/>
+        <activity android:name=".voice.voice_announce_upload_sample"/>
+        <activity android:name=".voice.voice_announce_upload_sample_done"/>
+        <activity android:name=".voice.voice_announce_apply_list"/>
+        <activity android:name=".voice.voice_announce_sample_edit"/>
+        <activity android:name=".voice.voice_introduce_edit"/>
+        <activity android:name=".voice.voice_review_main"/>
+
+
+        <activity android:name=".buyer.buyer_create_account"/>
+        <activity android:name=".buyer.buyer_main"/>
+        <activity android:name=".buyer.buyer_info"/>
+        <activity android:name=".buyer.buyer_search_voice"/>
+        <activity android:name=".buyer.buyer_search_result"/>
+        <activity android:name=".buyer.buyer_voice_info"/>
+        <activity android:name=".buyer.buyer_voice_matching"/>
+
+        <activity android:name=".buyer.buyer_matching_state_progress"/>
+        <activity android:name=".buyer.buyer_matching_state_complete"/>
+
+        <activity android:name=".buyer.buyer_announce_main"/>
+        <activity android:name=".buyer.buyer_make_announce"/>
+        <activity android:name=".buyer.buyer_announce_edit"/>
+        <activity android:name=".buyer.buyer_announce_show_actor"/>
+        <activity android:name=".buyer.buyer_announce_voice_info"/>
+        <activity android:name=".buyer.buyer_announce_matching"/>
+
+        <activity android:name=".buyer.buyer_review_main"/>
+        <activity android:name=".buyer.buyer_review_write"/>
+        <activity android:name=".buyer.buyer_review_write_complete"/>
+        <activity android:name=".buyer.buyer_review_edit"/>
+        <activity android:name=".buyer.buyer_review_edit_complete"/>
+        <activity android:name=".buyer.buyer_review_delete"/>
+        <activity android:name=".buyer.buyer_review_delete_complete"/>
+    </application>
+
+</manifest>

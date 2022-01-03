@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="공고 검색" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="지원한 공고 목록" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/voice_announce_list_recycler"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

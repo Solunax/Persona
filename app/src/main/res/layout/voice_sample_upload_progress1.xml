@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="연기 샘플 등록" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="연기샘플의 등록을 위해\n제공된 대사에 맞춰서\n연기샘플을 업로드 해 주십시오" />
+
+<LinearLayout
+    android:layout_marginTop="60dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp"
+    android:layout_gravity="center">
+
+    <Button
+        android:layout_marginRight="10dp"
+        android:id="@+id/voice_sample_choice"
+        android:background="@drawable/btn_white"
+        android:drawableTop="@drawable/progress_upload_sample"
+        android:layout_margin="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp"
+        android:text="연기 샘플 등록"/>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/voice_show_script"
+        android:background="@drawable/btn_white"
+        android:drawableTop="@drawable/progress_script_view"
+        android:layout_margin="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="19dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp"
+        android:text="대사 보기"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:background="@drawable/shadow"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="      연기 샘플 확인" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_marginLeft="20dp"
+        android:id="@+id/voice_upload_progress_sample_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:layout_marginLeft="30dp"
+        android:id="@+id/voice_upload_progress_sample_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/stop" />
+    </LinearLayout>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/voice_upload_progress1_next"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:enabled="false"
+        android:background="@drawable/btn_white_gradient"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="다음" />
+
+</LinearLayout>

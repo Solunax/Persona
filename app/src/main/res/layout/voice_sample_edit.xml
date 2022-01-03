@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="연기 샘플 수정" />
+
+    <TextView
+        android:id="@+id/voice_sample_edit_choice_type"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:text="정보를 수정할 연기샘플을 선택하십시오" />
+
+    <Button
+        android:id="@+id/voice_sample_edit_filter"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:visibility="gone"
+        android:background="@drawable/btn_white_gradient"
+        android:text="필터" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/voice_sample_edit_recycle"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/actor_sample_edit_no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/black"
+        android:text="등록된 연기 샘플이 없습니다" />
+</LinearLayout>

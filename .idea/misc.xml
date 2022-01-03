@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/bottmo_fixed_button.xml" value="0.3472222222222222" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/btn_filter_dialog.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/btn_gradient.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/btn_purple.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/btn_text_field.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/btn_white.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/btn_white_gradient.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/check.xml" value="0.38" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/drawer_gradient.xml" value="0.50625" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/maincolor_gradient.xml" value="0.37538461538461537" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/matching_done_resize.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/matching_icon_resize.xml" value="0.3472222222222222" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/profile_shadow.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/shadow.xml" value="0.37538461538461537" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/spinner_round.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/text_input_line.xml" value="0.37538461538461537" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/drawable/underline_box.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/activity_change_phone.xml" value="0.17" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buer_matching_complete_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_announce_actor_list_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_announce_edit.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_announce_list_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_announce_main.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_announce_matching.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_announce_show_actor.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_announce_voice_info.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_change_password.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_create_account.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_info.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_listitem.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_main.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_make_announce.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_matching_progress_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_matching_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_matching_state_complete.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_matching_state_progress.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_delete.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_delete_complete.xml" value="0.18" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_edit.xml" value="0.16" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_edit_complete.xml" value="0.18" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_main.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_write.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_review_write_complete.xml" value="0.2" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_search_no_result.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_search_result.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_search_voice.xml" value="0.18" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_voice_info.xml" value="0.22741433021806853" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/buyer_voice_matching.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/change_password.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/check.xml" value="0.328804347826087" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/createaccount.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/dd.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/drawer_header.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/find_id.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/find_id_pw.xml" value="0.15" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/find_pw.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/fragment_sample.xml" value="0.1453125" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/listitems.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/login_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/matching_state.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/successactivity.xml" value="0.1" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/sucessactivity.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/test.xml" value="0.15185185185185185" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/user_class.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_announce_apply_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_announce_list_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_announce_main_recycler.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_announce_sample_edit.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_announce_search_main.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_announce_upload_sample.xml" value="0.18" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_announce_upload_sample_done.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_change_password.xml" value="0.5" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_create_account.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_create_account_introduce.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_delete_recycler.xml" value="0.18" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_donation_activate.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_donation_deactivate.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_drawer_main.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_edit_recycler.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_info.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_introduce_edit.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_main.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_matching_complete_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_matching_deny_overlay.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_matching_deny_overlay_complete.xml" value="0.26132246376811596" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_matching_progress_recycle.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_matching_state_complete.xml" value="0.14" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_matching_state_progress.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_purpose_array.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_review_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_review_recycler.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_check.xml" value="0.2" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_delete.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_edit.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_edit_character.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_edit_character_check.xml" value="0.2776268115942029" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_edit_complete.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_edit_file.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_filter.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_upload_main.xml" value="0.1" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_upload_progress1.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_upload_progress2.xml" value="0.22" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_upload_progress3.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_upload_progress4.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_sample_upload_progress5.xml" value="0.33" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_samplecheck.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/voice_smaple_upload_progress1.xml" value="0.25" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/layout/withdrawal.xml" value="0.21" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/menu/voice_drawer_menu.xml" value="0.30092592592592593" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/Luna/AndroidStudioProjects/Persona/app/src/main/res/mipmap-anydpi-v26/ic_persona_round.xml" value="0.24259259259259258" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

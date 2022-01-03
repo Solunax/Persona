@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maincolor_gradient"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/matching_state_progress"
+        android:background="@drawable/btn_white"
+        android:drawableTop="@drawable/matching_icon_resize"
+        android:src="@drawable/matching_icon_resize"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:text="진행중인 매칭" />
+
+    <ImageButton
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/matching_state_complete"
+        android:background="@drawable/btn_white"
+        android:drawableTop="@drawable/matching_icon_resize"
+        android:src="@drawable/matching_done_resize"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:text="완료된 매칭" />
+
+</LinearLayout>

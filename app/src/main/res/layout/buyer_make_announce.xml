@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="공고 등록" />
+
+    <EditText
+        android:id="@+id/buyer_make_announce_title"
+        android:background="@drawable/btn_text_field"
+        android:padding="10dp"
+        android:layout_width="380dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="제목"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/buyer_make_announce_character"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_text_field"
+        android:hint="연기하는 캐릭터의 특징"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxWidth="5.0dip"
+        android:minWidth="10.0dip"
+        android:padding="10dp"
+        android:scrollHorizontally="false" />
+
+    <EditText
+        android:id="@+id/buyer_make_announce_script"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_text_field"
+        android:hint="대사(1분 이내)"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxWidth="5.0dip"
+        android:minWidth="10.0dip"
+        android:padding="10dp"
+        android:scrollHorizontally="false" />
+
+    <EditText
+        android:id="@+id/buyer_make_announce_end"
+        android:background="@drawable/btn_text_field"
+        android:padding="10dp"
+        android:layout_width="380dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="공고 종료일"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:text="" />
+
+    <Spinner
+        android:id="@+id/buyer_make_announce_character_spinner"
+        android:background="@drawable/spinner_round"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="380dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/buyer_make_announce_pay"
+        android:background="@drawable/btn_text_field"
+        android:padding="10dp"
+        android:layout_width="380dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="보수"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:text="" />
+
+    <RadioGroup
+        android:id="@+id/buyer_make_announce_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/buyer_make_announce_main_character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:text="주연" />
+
+        <RadioButton
+            android:id="@+id/buyer_make_announce_sub_character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="조연" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buyer_make_announce_button"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/btn_gradient"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="등록" />
+
+</LinearLayout>

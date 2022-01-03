@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="목소리 검색" />
+
+    <TextView
+        android:id="@+id/buyer_search_result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="적합한 성우를 찾았습니다!" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/buyer_sample_recycle"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/buyer_search_no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/black"
+        android:text="적합한 성우를 찾지 못했습니다.." />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="360dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/btn_white"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="매칭을 취소하실 건가요?" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="현재 진행중인 매칭이\n 취소됩니다." />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/voice_matching_deny"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_white_gradient"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="거절하기" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/voice_matching_deny_cancel"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_gradient"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="그만두기" />
+
+</LinearLayout>

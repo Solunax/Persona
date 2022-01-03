@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/buyer_voice_mother_linear"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shadow">
+
+        <TextView
+            android:id="@+id/buyer_actor_name"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="ACTOR"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/buyer_upload_check_sample_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:visibility="visible"
+                    android:src="@drawable/play" />
+
+                <ImageButton
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/buyer_upload_check_sample_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/stop" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/buyer_actor_character"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="20dp"
+                android:text="Character"
+                android:singleLine="true"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

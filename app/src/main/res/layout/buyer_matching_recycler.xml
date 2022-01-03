@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shadow">
+
+        <TextView
+            android:id="@+id/buyer_matching_codename"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Item"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/buyer_matching_actor_id"
+            android:layout_width="360dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Item"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/buyer_matching_date"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Item"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+</LinearLayout>

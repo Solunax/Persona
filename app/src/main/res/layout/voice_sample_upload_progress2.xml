@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:text="연기 샘플 등록" />
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="연기 샘플의 분석이 완료되었습니다.\n분석 자료를 사용할 수 있고,\n필요에 따라 직접 입력 가능합니다." />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/voice_sample_analyze"
+            android:background="@drawable/btn_white"
+            android:drawableTop="@drawable/analize"
+            android:layout_margin="5dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:text="분석 결과 사용"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/voice_self_edit"
+            android:background="@drawable/btn_white"
+            android:drawableTop="@drawable/edit"
+            android:layout_margin="5dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:text="직접 입력"/>
+    </LinearLayout>
+
+</LinearLayout>

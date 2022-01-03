@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "572301095151",
+    "project_id": "persona-5dc0e",
+    "storage_bucket": "persona-5dc0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572301095151:android:22296688ea339f6324eb1a",
+        "android_client_info": {
+          "package_name": "com.persona.persona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572301095151-77cig8cu7nqtc10qurre0ap5kqhpeule.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.persona.persona",
+            "certificate_hash": "4d79f9f6eb92c0cbc8e84603fb9feac97004b89f"
+          }
+        },
+        {
+          "client_id": "572301095151-3mog4i4o7mkv4up04vjk3sb600acsp8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoVV6-7cmekzeSBrKfhz9YjZoQj6JFvx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572301095151-3mog4i4o7mkv4up04vjk3sb600acsp8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

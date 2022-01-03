@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="연기 샘플 등록"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/drawer"
+        android:paddingRight="20dp"
+        android:paddingLeft="60dp"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/voice_upload_sample"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:text="연기 샘플 등록"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/voice_download"
+        android:background="@drawable/btn_gradient"/>
+
+    <Button
+        android:id="@+id/voice_check_sample"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:text="연기 샘플 확인"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/voice_search"
+        android:background="@drawable/btn_gradient"/>
+
+    <Button
+        android:id="@+id/voice_edit_sample"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:text="연기 샘플 수정"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/voice_edit"
+        android:background="@drawable/btn_gradient"/>
+
+    <Button
+        android:id="@+id/voice_delete_sample"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:text="연기 샘플 삭제"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/voice_trash_can"
+        android:background="@drawable/btn_gradient"/>
+
+</LinearLayout>

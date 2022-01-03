@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/voice_review_recycle_mother_linear"
+        android:background="@drawable/shadow">
+
+        <TextView
+            android:id="@+id/voice_review_codename"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Item"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/voice_review_buyer_id"
+            android:layout_width="360dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Item"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/voice_review_date"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Item"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="24dp"/>
+
+        <LinearLayout
+            android:id="@+id/voice_review_buyer_review_linear"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/voice_review_contents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:lines="3"
+                    android:text="TextView" />
+
+
+                <RatingBar
+                    android:id="@+id/voice_review_rating"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:max="5"
+                    android:stepSize="1"
+                    android:isIndicator="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

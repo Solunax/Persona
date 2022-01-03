@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#CBBBFF"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black"
+
+        android:text="회원가입" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/actor_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="아이디"
+            android:textColorHint="@color/black"
+            android:background="@drawable/btn_text_field"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <Button
+            android:id="@+id/actor_id_check"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_white_gradient"
+            android:text="중복확인" />
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/actor_pw"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_text_field"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:text=""
+            android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/actor_check_pw"
+        android:layout_width="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:hint="비밀번호 확인"
+        android:textColorHint="@color/black"
+        android:background="@drawable/btn_text_field"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/actor_name"
+        android:layout_width="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:hint="이름(실명)"
+        android:textColorHint="@color/black"
+        android:background="@drawable/btn_text_field"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/actor_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="휴대전화번호 (- 제외)"
+                android:textColorHint="@color/black"
+                android:background="@drawable/btn_text_field"
+                android:padding="10dp"
+                android:ems="10"
+                android:layout_gravity="center_vertical"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <Button
+                android:id="@+id/actor_send_phone_code"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_white_gradient"
+                android:text="인증번호전송" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/actor_phone_code"
+        android:layout_width="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:hint="인증번호"
+        android:textColorHint="@color/black"
+        android:background="@drawable/btn_text_field"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/actor_email"
+        android:layout_width="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:hint="이메일"
+        android:textColorHint="@color/black"
+        android:background="@drawable/btn_text_field"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <RadioGroup
+        android:id="@+id/genderGroup"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/actor_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="남성"
+            android:layout_marginRight="40dp"/>
+
+        <RadioButton
+            android:id="@+id/actor_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="여성" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/actor_my_contract"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용약관 동의" />
+
+    <CheckBox
+        android:id="@+id/actor_using_personal_data"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인정보 취급방침 동의" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/actor_create_account"
+        android:background="@drawable/btn_white_gradient"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="회원가입" />
+
+</LinearLayout>

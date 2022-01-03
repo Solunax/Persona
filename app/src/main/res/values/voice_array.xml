@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_purpose">
+        <item>전부</item>
+        <item>나레이션</item>
+        <item>더빙</item>
+        <item>ARS</item>
+        <item>도서 녹음</item>
+    </string-array>
+
+    <string-array name="voice_gender">
+        <item>남성</item>
+        <item>여성</item>
+    </string-array>
+
+    <string-array name="voice_language">
+        <item>한국어</item>
+        <item>영어</item>
+        <item>일본어</item>
+        <item>중국어</item>
+    </string-array>
+    
+    <string-array name="voice_age">
+        <item>어린이</item>
+        <item>청소년</item>
+        <item>청년</item>
+        <item>중장년</item>
+        <item>노인</item>
+    </string-array>
+
+    <string-array name="voice_character">
+        <item>기쁜</item>
+        <item>슬픈</item>
+        <item>우울한</item>
+        <item>겁에질린</item>
+        <item>나른한</item>
+    </string-array>
+
+</resources>
