@@ -1,5 +1,7 @@
 # Persona
-University Team Project
+University Team Project  
+
+![팀 로고](https://user-images.githubusercontent.com/97011241/154841156-5b16637b-bc87-4169-9553-b554e7261776.jpg)  
 
 - 대학 분석설계 프로젝트 소스 및 전체 파일
 - Firebase RealTime Database, Firebase Storage, Android Studio 사용  
